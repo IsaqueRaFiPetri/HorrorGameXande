@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     public EventSystem eventSystem;
-    [SerializeField] private GameObject painelMenuInicial;
-    [SerializeField] private GameObject painelCred;
 
     public void Teleport(string tp)
     {
