@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    public Transform foot;
+    bool groundCheck;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        groundCheck = Physics.OverlapSphere(foot.position, 0.05f/*, foot.position*/);
     }
 }
