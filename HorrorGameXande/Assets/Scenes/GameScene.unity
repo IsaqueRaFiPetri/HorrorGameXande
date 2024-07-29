@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 4231579}
   - component: {fileID: 4231583}
   - component: {fileID: 4231582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6916567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 31316192}
   - component: {fileID: 31316196}
   - component: {fileID: 31316195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 46126983}
   - component: {fileID: 46126987}
   - component: {fileID: 46126986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 98135763}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 179350448}
   - component: {fileID: 179350452}
   - component: {fileID: 179350451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,7 +855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 189531597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,7 +897,7 @@ GameObject:
   - component: {fileID: 191133131}
   - component: {fileID: 191133135}
   - component: {fileID: 191133134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -980,7 +980,7 @@ GameObject:
   - component: {fileID: 211741709}
   - component: {fileID: 211741713}
   - component: {fileID: 211741712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 236006038}
   - component: {fileID: 236006037}
   - component: {fileID: 236006041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Corredor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 244988080}
   - component: {fileID: 244988084}
   - component: {fileID: 244988083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1370,7 +1370,7 @@ GameObject:
   - component: {fileID: 245200847}
   - component: {fileID: 245200851}
   - component: {fileID: 245200850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,6 +1468,10 @@ PrefabInstance:
     - target: {fileID: 100006, guid: 6034c645c164d414faf6a0d0869ef3de, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 6034c645c164d414faf6a0d0869ef3de, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 6034c645c164d414faf6a0d0869ef3de, type: 3}
       propertyPath: m_Layer
@@ -1696,7 +1700,7 @@ GameObject:
   - component: {fileID: 281594920}
   - component: {fileID: 281594924}
   - component: {fileID: 281594923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1768,44 +1772,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281594919}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &288714940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-  m_PrefabInstance: {fileID: 1582148143}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &288714944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288714940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
 --- !u!1 &289030707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,7 +1944,7 @@ GameObject:
   - component: {fileID: 296154115}
   - component: {fileID: 296154117}
   - component: {fileID: 296154116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2062,7 +2028,7 @@ GameObject:
   - component: {fileID: 302238842}
   - component: {fileID: 302238846}
   - component: {fileID: 302238845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2201,6 +2167,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6202668810318017221, guid: 158f818f5cdf7f54f8cb6f3b74f535c8, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 6432695747220545693, guid: 158f818f5cdf7f54f8cb6f3b74f535c8, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -2286,7 +2256,7 @@ GameObject:
   - component: {fileID: 329712467}
   - component: {fileID: 329712471}
   - component: {fileID: 329712470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2369,7 +2339,7 @@ GameObject:
   - component: {fileID: 332841650}
   - component: {fileID: 332841654}
   - component: {fileID: 332841653}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2480,6 +2450,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -2575,11 +2549,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 176677112838461730, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 176677112838461731, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7169782441327115028, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Name
@@ -2587,7 +2561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7169782441327115028, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7169782441327115028, guid: e92f236a79af052448e39adec40a713d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 7169782441327115031, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_RootOrder
@@ -2722,6 +2700,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 942047845792653608, guid: f14d1ac6dacfc0242bed295f91ed3591, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f14d1ac6dacfc0242bed295f91ed3591, type: 3}
 --- !u!1 &371154102
@@ -2735,7 +2717,7 @@ GameObject:
   - component: {fileID: 371154103}
   - component: {fileID: 371154107}
   - component: {fileID: 371154106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +2800,7 @@ GameObject:
   - component: {fileID: 374436785}
   - component: {fileID: 374436789}
   - component: {fileID: 374436788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2976,7 +2958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3260861638834122554, guid: 2462142bcda5dad45975add9996018e1, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260861638834122554, guid: 2462142bcda5dad45975add9996018e1, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 3260861638834122555, guid: 2462142bcda5dad45975add9996018e1, type: 3}
       propertyPath: m_RootOrder
@@ -3036,7 +3022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4681491386937735916, guid: 2462142bcda5dad45975add9996018e1, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2462142bcda5dad45975add9996018e1, type: 3}
@@ -3051,7 +3037,7 @@ GameObject:
   - component: {fileID: 400713276}
   - component: {fileID: 400713280}
   - component: {fileID: 400713279}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3134,7 +3120,7 @@ GameObject:
   - component: {fileID: 402898690}
   - component: {fileID: 402898694}
   - component: {fileID: 402898693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3289,6 +3275,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8452452796760257863, guid: 80787e8e4bf9c6743aa6983b63bca4af, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80787e8e4bf9c6743aa6983b63bca4af, type: 3}
 --- !u!4 &424934763 stripped
@@ -3307,7 +3297,7 @@ GameObject:
   - component: {fileID: 430752351}
   - component: {fileID: 430752355}
   - component: {fileID: 430752354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3454,6 +3444,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1231204281766636742, guid: 912c1a45c5809e94ab662908dae46045, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 7077390129326881642, guid: 912c1a45c5809e94ab662908dae46045, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -3471,7 +3465,7 @@ GameObject:
   - component: {fileID: 474745240}
   - component: {fileID: 474745244}
   - component: {fileID: 474745243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3554,7 +3548,7 @@ GameObject:
   - component: {fileID: 475807789}
   - component: {fileID: 475807793}
   - component: {fileID: 475807792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3637,7 +3631,7 @@ GameObject:
   - component: {fileID: 477842096}
   - component: {fileID: 477842100}
   - component: {fileID: 477842099}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3720,7 +3714,7 @@ GameObject:
   - component: {fileID: 492957766}
   - component: {fileID: 492957770}
   - component: {fileID: 492957769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3807,6 +3801,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2faafd7c39cf18b4d83d3d729c4f9a04, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2faafd7c39cf18b4d83d3d729c4f9a04, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3876,7 +3874,7 @@ GameObject:
   - component: {fileID: 508028694}
   - component: {fileID: 508028698}
   - component: {fileID: 508028697}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3957,7 @@ GameObject:
   - component: {fileID: 538925860}
   - component: {fileID: 538925864}
   - component: {fileID: 538925863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4251,7 +4249,7 @@ GameObject:
   - component: {fileID: 560299601}
   - component: {fileID: 560299605}
   - component: {fileID: 560299604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4375,6 +4373,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8107088758560444937, guid: 189a9280397c2594ba84092398c84bb3, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 8919936416863914163, guid: 189a9280397c2594ba84092398c84bb3, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -4442,7 +4444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 573187859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4482,7 +4484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 573294306}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4524,7 +4526,7 @@ GameObject:
   - component: {fileID: 585456682}
   - component: {fileID: 585456686}
   - component: {fileID: 585456685}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4607,7 +4609,7 @@ GameObject:
   - component: {fileID: 593217710}
   - component: {fileID: 593217714}
   - component: {fileID: 593217713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4695,7 +4697,7 @@ GameObject:
   - component: {fileID: 599275057}
   - component: {fileID: 599275061}
   - component: {fileID: 599275060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4890,7 +4892,7 @@ GameObject:
   - component: {fileID: 606625048}
   - component: {fileID: 606625052}
   - component: {fileID: 606625051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4973,7 +4975,7 @@ GameObject:
   - component: {fileID: 613912636}
   - component: {fileID: 613912640}
   - component: {fileID: 613912639}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5056,7 +5058,7 @@ GameObject:
   - component: {fileID: 617486510}
   - component: {fileID: 617486514}
   - component: {fileID: 617486513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5167,6 +5169,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -5264,7 +5270,7 @@ GameObject:
   - component: {fileID: 643195820}
   - component: {fileID: 643195824}
   - component: {fileID: 643195823}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5614,7 +5620,7 @@ GameObject:
   - component: {fileID: 681008674}
   - component: {fileID: 681008678}
   - component: {fileID: 681008677}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5697,7 +5703,7 @@ GameObject:
   - component: {fileID: 704122658}
   - component: {fileID: 704122662}
   - component: {fileID: 704122661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5780,7 +5786,7 @@ GameObject:
   - component: {fileID: 710774859}
   - component: {fileID: 710774863}
   - component: {fileID: 710774862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5863,7 +5869,7 @@ GameObject:
   - component: {fileID: 714013890}
   - component: {fileID: 714013894}
   - component: {fileID: 714013893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5973,6 +5979,10 @@ PrefabInstance:
     - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
@@ -6108,6 +6118,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6100434731370130537, guid: 51ed19930404371458e8d3152edbad78, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 6223964705008206678, guid: 51ed19930404371458e8d3152edbad78, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -6234,7 +6248,7 @@ GameObject:
   - component: {fileID: 733528319}
   - component: {fileID: 733528321}
   - component: {fileID: 733528320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube.156
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6435,7 +6449,7 @@ GameObject:
   - component: {fileID: 765432078}
   - component: {fileID: 765432082}
   - component: {fileID: 765432081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6545,6 +6559,10 @@ PrefabInstance:
     - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_LocalScale.x
@@ -6788,6 +6806,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -6885,7 +6907,7 @@ GameObject:
   - component: {fileID: 811589790}
   - component: {fileID: 811589794}
   - component: {fileID: 811589793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7058,7 +7080,7 @@ GameObject:
   - component: {fileID: 840109063}
   - component: {fileID: 840109067}
   - component: {fileID: 840109066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7141,7 +7163,7 @@ GameObject:
   - component: {fileID: 842132791}
   - component: {fileID: 842132795}
   - component: {fileID: 842132794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7224,7 +7246,7 @@ GameObject:
   - component: {fileID: 855646117}
   - component: {fileID: 855646121}
   - component: {fileID: 855646120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7307,7 +7329,7 @@ GameObject:
   - component: {fileID: 862745370}
   - component: {fileID: 862745374}
   - component: {fileID: 862745373}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7390,7 +7412,7 @@ GameObject:
   - component: {fileID: 900009287}
   - component: {fileID: 900009291}
   - component: {fileID: 900009290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7489,6 +7511,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011351249364, guid: dcd0587b065a66040bf53ce3ab8edf86, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 1000012963573870, guid: dcd0587b065a66040bf53ce3ab8edf86, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -7583,7 +7609,7 @@ GameObject:
   - component: {fileID: 936296860}
   - component: {fileID: 936296864}
   - component: {fileID: 936296863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7778,7 +7804,7 @@ GameObject:
   - component: {fileID: 978306862}
   - component: {fileID: 978306866}
   - component: {fileID: 978306865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8113,6 +8139,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -8332,7 +8362,7 @@ GameObject:
   - component: {fileID: 1031987352}
   - component: {fileID: 1031987356}
   - component: {fileID: 1031987355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8415,7 +8445,7 @@ GameObject:
   - component: {fileID: 1057024653}
   - component: {fileID: 1057024657}
   - component: {fileID: 1057024656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8558,6 +8588,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fde02d9c5ccd77741b9aac5a30193182, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fde02d9c5ccd77741b9aac5a30193182, type: 3}
 --- !u!4 &1126519587 stripped
@@ -8693,7 +8727,7 @@ GameObject:
   - component: {fileID: 1154068218}
   - component: {fileID: 1154068222}
   - component: {fileID: 1154068221}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8776,7 +8810,7 @@ GameObject:
   - component: {fileID: 1174557477}
   - component: {fileID: 1174557481}
   - component: {fileID: 1174557480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8864,7 +8898,7 @@ GameObject:
   - component: {fileID: 1184269080}
   - component: {fileID: 1184269084}
   - component: {fileID: 1184269083}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8945,7 +8979,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1186165059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8987,7 +9021,7 @@ GameObject:
   - component: {fileID: 1197060226}
   - component: {fileID: 1197060230}
   - component: {fileID: 1197060229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9070,7 +9104,7 @@ GameObject:
   - component: {fileID: 1209252849}
   - component: {fileID: 1209252853}
   - component: {fileID: 1209252852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9153,7 +9187,7 @@ GameObject:
   - component: {fileID: 1220027814}
   - component: {fileID: 1220027816}
   - component: {fileID: 1220027815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube.196
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9236,7 +9270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1229479981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9305,6 +9339,10 @@ PrefabInstance:
     - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
@@ -9403,7 +9441,7 @@ GameObject:
   - component: {fileID: 1243125132}
   - component: {fileID: 1243125136}
   - component: {fileID: 1243125135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9491,7 +9529,7 @@ GameObject:
   - component: {fileID: 1257388965}
   - component: {fileID: 1257388969}
   - component: {fileID: 1257388968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9574,7 +9612,7 @@ GameObject:
   - component: {fileID: 1273856725}
   - component: {fileID: 1273856729}
   - component: {fileID: 1273856728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9802,6 +9840,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -9899,7 +9941,7 @@ GameObject:
   - component: {fileID: 1305647569}
   - component: {fileID: 1305647573}
   - component: {fileID: 1305647572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9982,7 +10024,7 @@ GameObject:
   - component: {fileID: 1322394891}
   - component: {fileID: 1322394895}
   - component: {fileID: 1322394894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10065,7 +10107,7 @@ GameObject:
   - component: {fileID: 1334606826}
   - component: {fileID: 1334606830}
   - component: {fileID: 1334606829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10265,7 +10307,7 @@ GameObject:
   - component: {fileID: 1346795641}
   m_Layer: 8
   m_Name: Building
-  m_TagString: Untagged
+  m_TagString: Walls Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10304,7 +10346,7 @@ GameObject:
   - component: {fileID: 1352748731}
   - component: {fileID: 1352748735}
   - component: {fileID: 1352748734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10387,7 +10429,7 @@ GameObject:
   - component: {fileID: 1353463003}
   - component: {fileID: 1353463007}
   - component: {fileID: 1353463006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10470,7 +10512,7 @@ GameObject:
   - component: {fileID: 1368097905}
   - component: {fileID: 1368097909}
   - component: {fileID: 1368097908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10558,7 +10600,7 @@ GameObject:
   - component: {fileID: 1404789473}
   - component: {fileID: 1404789477}
   - component: {fileID: 1404789476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10659,7 +10701,7 @@ GameObject:
   - component: {fileID: 1416656141}
   - component: {fileID: 1416656145}
   - component: {fileID: 1416656144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10740,11 +10782,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 176677112838461730, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 176677112838461731, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7169782441327115028, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Name
@@ -10752,7 +10794,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7169782441327115028, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7169782441327115028, guid: e92f236a79af052448e39adec40a713d, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 7169782441327115031, guid: e92f236a79af052448e39adec40a713d, type: 3}
       propertyPath: m_RootOrder
@@ -10870,7 +10916,7 @@ GameObject:
   - component: {fileID: 1455720791}
   - component: {fileID: 1455720795}
   - component: {fileID: 1455720794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11177,7 +11223,7 @@ GameObject:
   - component: {fileID: 1474660102}
   - component: {fileID: 1474660106}
   - component: {fileID: 1474660105}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11299,7 +11345,7 @@ GameObject:
   - component: {fileID: 1485424410}
   - component: {fileID: 1485424414}
   - component: {fileID: 1485424413}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11389,6 +11435,10 @@ PrefabInstance:
     - target: {fileID: 1239201142768515450, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1239201142768515450, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
       objectReference: {fileID: 0}
     - target: {fileID: 1907650969983378368, guid: 026bbb898b925f54b9fc6523b72e5933, type: 3}
       propertyPath: m_RootOrder
@@ -11647,6 +11697,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e1ee6e498cbdf54785fc872fb7e80a8, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 2794707010297791342, guid: 2e1ee6e498cbdf54785fc872fb7e80a8, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -11668,7 +11722,7 @@ GameObject:
   - component: {fileID: 1574928406}
   - component: {fileID: 1574928410}
   - component: {fileID: 1574928409}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11751,7 +11805,7 @@ GameObject:
   - component: {fileID: 1578804108}
   - component: {fileID: 1578804112}
   - component: {fileID: 1578804111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11942,25 +11996,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4459864850019384736, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 62df3a0b6f9ee0f409ad73490abb94cd, type: 2}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12002,42 +12040,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: bobSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: walkSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: enableJump
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: sprintSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: enableCrouch
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: enableSprint
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: enableHeadBob
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-      propertyPath: unlimitedSprint
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_Name
       value: FirstPersonController
@@ -12055,7 +12057,7 @@ GameObject:
   - component: {fileID: 1588858085}
   - component: {fileID: 1588858089}
   - component: {fileID: 1588858088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12256,7 +12258,7 @@ GameObject:
   - component: {fileID: 1603629512}
   - component: {fileID: 1603629516}
   - component: {fileID: 1603629515}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12339,7 +12341,7 @@ GameObject:
   - component: {fileID: 1614248723}
   - component: {fileID: 1614248727}
   - component: {fileID: 1614248726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12501,7 +12503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1648345769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12543,7 +12545,7 @@ GameObject:
   - component: {fileID: 1650765540}
   - component: {fileID: 1650765544}
   - component: {fileID: 1650765543}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12626,7 +12628,7 @@ GameObject:
   - component: {fileID: 1653301320}
   - component: {fileID: 1653301324}
   - component: {fileID: 1653301323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12709,7 +12711,7 @@ GameObject:
   - component: {fileID: 1665345799}
   - component: {fileID: 1665345803}
   - component: {fileID: 1665345802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12781,43 +12783,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665345798}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1686805021 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-  m_PrefabInstance: {fileID: 1582148143}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1686805022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686805021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51880f679cc47db46abb60c830262f89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  orientation: {fileID: 1686805028}
-  body: {fileID: 1686805024}
-  whatIsWall:
-    serializedVersion: 2
-    m_Bits: 256
-  climbSpeed: 200
-  maxClimbTime: 60
-  detectionLenght: 1
-  sphereCastRadius: 4
-  maxWallLookAngle: 90
---- !u!54 &1686805024 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 4459864850019384741, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-  m_PrefabInstance: {fileID: 1582148143}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1686805028 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-  m_PrefabInstance: {fileID: 1582148143}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1712984507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: 35b598a55ef3da9479c598ccc4697e9d, type: 3}
@@ -12834,7 +12799,7 @@ GameObject:
   - component: {fileID: 1756634430}
   - component: {fileID: 1756634434}
   - component: {fileID: 1756634433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12920,7 +12885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759254832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12962,7 +12927,7 @@ GameObject:
   - component: {fileID: 1798492024}
   - component: {fileID: 1798492028}
   - component: {fileID: 1798492027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13045,7 +13010,7 @@ GameObject:
   - component: {fileID: 1809758565}
   - component: {fileID: 1809758569}
   - component: {fileID: 1809758568}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13127,9 +13092,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1814627693}
   - component: {fileID: 1814627694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Prateleira
-  m_TagString: Untagged
+  m_TagString: Walls Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13174,7 +13139,7 @@ GameObject:
   - component: {fileID: 1822317500}
   m_Layer: 8
   m_Name: "Arm\xE1rio"
-  m_TagString: Untagged
+  m_TagString: Walls Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13208,7 +13173,7 @@ GameObject:
   - component: {fileID: 1824786030}
   - component: {fileID: 1824786034}
   - component: {fileID: 1824786033}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13289,7 +13254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1841470713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13332,7 +13297,7 @@ GameObject:
   - component: {fileID: 1841578438}
   - component: {fileID: 1841578442}
   - component: {fileID: 1841578441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13415,7 +13380,7 @@ GameObject:
   - component: {fileID: 1842466441}
   - component: {fileID: 1842466445}
   - component: {fileID: 1842466444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13502,6 +13467,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4677379222891419799, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 5043209207328804866, guid: fbfe382c29a4ab547a520eb7084a534c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -13587,7 +13556,7 @@ GameObject:
   - component: {fileID: 1868090082}
   - component: {fileID: 1868090086}
   - component: {fileID: 1868090085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13670,7 +13639,7 @@ GameObject:
   - component: {fileID: 1882810180}
   - component: {fileID: 1882810184}
   - component: {fileID: 1882810183}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13903,7 +13872,7 @@ GameObject:
   - component: {fileID: 1965326614}
   - component: {fileID: 1965326618}
   - component: {fileID: 1965326617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13986,7 +13955,7 @@ GameObject:
   - component: {fileID: 1981630294}
   - component: {fileID: 1981630298}
   - component: {fileID: 1981630297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14069,7 +14038,7 @@ GameObject:
   - component: {fileID: 2016237143}
   - component: {fileID: 2016237147}
   - component: {fileID: 2016237146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14152,7 +14121,7 @@ GameObject:
   - component: {fileID: 2024998034}
   - component: {fileID: 2024998038}
   - component: {fileID: 2024998037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14235,7 +14204,7 @@ GameObject:
   - component: {fileID: 2026642839}
   - component: {fileID: 2026642843}
   - component: {fileID: 2026642842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14318,7 +14287,7 @@ GameObject:
   - component: {fileID: 2041548675}
   - component: {fileID: 2041548679}
   - component: {fileID: 2041548678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14410,6 +14379,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2c70434fd103165449d3bcfe41884243, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2c70434fd103165449d3bcfe41884243, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -14491,6 +14464,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5768377409343704515, guid: 0bd166eac535dfd43bc28b43190b289a, type: 3}
+      propertyPath: m_TagString
+      value: Walls Decoration
+      objectReference: {fileID: 0}
     - target: {fileID: 6577142344966051705, guid: 0bd166eac535dfd43bc28b43190b289a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14560,7 +14537,7 @@ GameObject:
   - component: {fileID: 2058457998}
   - component: {fileID: 2058458002}
   - component: {fileID: 2058458001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14755,7 +14732,7 @@ GameObject:
   - component: {fileID: 2095343107}
   - component: {fileID: 2095343111}
   - component: {fileID: 2095343110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14955,7 +14932,7 @@ GameObject:
   - component: {fileID: 2131194391}
   - component: {fileID: 2131194395}
   - component: {fileID: 2131194394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor_Kitchen (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15036,7 +15013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2135617552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
