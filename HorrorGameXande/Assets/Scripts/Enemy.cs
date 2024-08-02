@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour
         //agent.SetDestination(PlayerInteraction.instance.transform.position);
         switch (monsterAI)
         {
-            case MonsterAI.Break: //modod de aguardo
+            case MonsterAI.Break: //modo de aguardo
                 break;
             case MonsterAI.Patrolling:
                 if (agent.stoppingDistance >= agent.remainingDistance)
