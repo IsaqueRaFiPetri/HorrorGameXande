@@ -1,41 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Rendering;
-
+[RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    CharacterController controller;
+    public float forwardSpeed;
+    public float strafeSpeed;
+    bool isGrounded;
+    Vector3 vertical;
 
-    public float speed;
+    public Transform foot;
+    public Collider[] collisions;
+    // Start is called before the first frame update
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        MovePlayerRelativeToCamera();
+        collisions = Physics.OverlapSphere(foot.position, 0.5f);
+        isGrounded = (collisions.Length > 0);
+        Controls();
+
     }
-    
-    void MovePlayerRelativeToCamera()
+    private void OnDrawGizmos()
     {
-        //Get Player Input
-        float playerVerticalInput = Input.GetAxis("Vertical");
-        float playerHorizontalInput = Input.GetAxis("Horizontal");
+        Gizmos.DrawSphere(foot.position, 0.5f);
+    }
+    void Controls()
+    {
+        float forwardInput = Input.GetAxisRaw("Vertical");
+        float strafeInput = Input.GetAxisRaw("Horizontal");
+        Cursor.visible = true;
+        Vector3 forward = forwardInput * forwardSpeed * transform.forward;
+        Vector3 strafe = strafeInput * strafeSpeed * transform.right;
+        if (isGrounded)
+        {
+           // vertical = Vector3.zero;
+        }
+        else
+        {
+            //vertical = Vector3.down * 10;
+        }
+        //vertical = Vector3.down * 10;
+        transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward);
 
-        //Get Camera Normalized Directional Vectors
-        Vector3 forward = Camera.main.transform.forward;
-        Vector3 right = Camera.main.transform.right;
-        forward.y = 0;
-        right.y = 0;
-        forward = forward.normalized;
-        right = right.normalized;
-
-        //Create direction-relative-input vectors
-        Vector3 forwardRelativeVerticalInput = (playerVerticalInput * forward) * speed/100;
-        Vector3 rightRelativeHorizontalInput = (playerHorizontalInput * forward) * speed/100;
-
-        //Create and apply camera relative movement
-        Vector3 cameraRelativeMovement = forwardRelativeVerticalInput + rightRelativeHorizontalInput;
-        this.transform.Translate(cameraRelativeMovement, Space.World);
+        Vector3 finalVelocity = forward + strafe + vertical;
+        controller.Move(finalVelocity * Time.deltaTime);
     }
 }
+
 //https://www.youtube.com/watch?v=7kGCrq1cJew
