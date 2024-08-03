@@ -2,17 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractableTeve : MonoBehaviour
+public class InteractableTeve : InteractableObject
 {
-    // Start is called before the first frame update
-    void Start()
+    bool isOn = false;
+    public Light luz;
+    Color randomColor;
+
+    protected override void Interact()
     {
-        
+        if (!isOn)
+        {
+            isOn = true;
+            luz.enabled = true;
+        }
+        else
+        {
+            isOn = false;
+            luz.enabled = false;
+        }
+    }
+    public void Update()
+    {
+        randomColor = new Color(Random.value, Random.value, Random.value);
+        LuzChanger();
+    }
+    void LuzChanger()
+    {
+        luz.color = randomColor;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
