@@ -49,7 +49,7 @@ public class MigalhasCollector : MonoBehaviour
     {
         if (inReach && Input.GetButtonDown("pickup"))
         {
-            gameLogic.GetComponent<GameLogic>().pageCount += 1;
+            gameLogic.GetComponent<GameLogic>().migalhasCount += 1;
             collectSound.Play();
             collectText.SetActive(false);
             migalhas.SetActive(false);

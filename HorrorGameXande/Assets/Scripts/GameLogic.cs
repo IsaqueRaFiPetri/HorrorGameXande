@@ -9,21 +9,21 @@ public class GameLogic : MonoBehaviour
 {
     public GameObject counter;
 
-    public int pageCount;
+    public int migalhasCount;
 
     public string tp;
 
 
     void Start()
     {
-        pageCount = 0;
+        migalhasCount = 0;
 
     }
     void Update()
     {
-        counter.GetComponent<TMP_Text>().text = pageCount + "/4";
+        counter.GetComponent<TMP_Text>().text = migalhasCount + "/4";
 
-        if (pageCount == 8)
+        if (migalhasCount == 4)
         {
             SceneManager.LoadScene(tp);
         }
