@@ -16,6 +16,8 @@ public class PlayerStats : MonoBehaviour
 
     public UnityEvent OnPause, OnUnpause;
 
+    public bool win;
+
     void Awake()
     {
         instance = this;

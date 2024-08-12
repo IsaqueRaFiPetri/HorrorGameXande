@@ -10,52 +10,19 @@ public class MigalhasCollector : MonoBehaviour
 
     private GameObject migalhas;
 
-    private bool inReach;
-
     private GameObject gameLogic;
-
 
     void Start()
     {
-        collectText.SetActive(false);
-
-        inReach = false;
-
         gameLogic = GameObject.FindWithTag("GameLogic");
 
         migalhas = this.gameObject;
 
     }
-
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter()
     {
-        if (other.gameObject.tag == "Reach")
-        {
-            inReach = true;
-            collectText.SetActive(true);
-        }
-    }
-
-    public void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Reach")
-        {
-            inReach = false;
-            collectText.SetActive(false);
-        }
-    }
-
-    void Update()
-    {
-        if (inReach && Input.GetButtonDown("pickup"))
-        {
-            gameLogic.GetComponent<GameLogic>().migalhasCount += 1;
-            collectSound.Play();
-            collectText.SetActive(false);
-            migalhas.SetActive(false);
-            inReach = false;
-        }
-
-
+        gameLogic.GetComponent<GameLogic>().migalhasCount++;
+        collectSound.Play();
+        migalhas.SetActive(false);
     }
 }

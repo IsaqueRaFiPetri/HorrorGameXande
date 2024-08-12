@@ -36,15 +36,15 @@ public class PlayerMovement : MonoBehaviour
         float forwardInput = Input.GetAxisRaw("Vertical");
         float strafeInput = Input.GetAxisRaw("Horizontal");
         Cursor.visible = true;
-        Vector3 forward = forwardInput * forwardSpeed * transform.forward;
+        Vector3 forward = forwardInput * forwardSpeed * Camera.main.transform.forward;
         Vector3 strafe = strafeInput * strafeSpeed * transform.right;
         if (isGrounded)
         {
-           // vertical = Vector3.zero;
+            vertical = Vector3.zero;
         }
         else
         {
-            //vertical = Vector3.down * 10;
+            vertical = Vector3.down * 100;
         }
         //vertical = Vector3.down * 10;
         transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward);
