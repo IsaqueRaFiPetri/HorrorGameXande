@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class InteractableTeve : InteractableObject
 {
     bool isOn = false;
+    public GameObject tela;
     public Light luz;
     Color randomColor;
 
@@ -13,12 +15,12 @@ public class InteractableTeve : InteractableObject
         if (!isOn)
         {
             isOn = true;
-            luz.enabled = true;
+            tela.SetActive(true);
         }
         else
         {
             isOn = false;
-            luz.enabled = false;
+            tela.SetActive(true);
         }
     }
     public void Update()
@@ -29,6 +31,12 @@ public class InteractableTeve : InteractableObject
     void LuzChanger()
     {
         luz.color = randomColor;
+        WaitTime();
+    }
+
+    IEnumerator WaitTime()
+    {
+        yield return new WaitForSeconds(5);
     }
 
 }

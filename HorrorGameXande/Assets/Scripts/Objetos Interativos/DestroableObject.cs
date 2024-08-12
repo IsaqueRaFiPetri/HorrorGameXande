@@ -8,6 +8,5 @@ public class DestroableObject : InteractableObject
     {
         PlayerInteraction.Instance.OnInteractionEffected.Invoke();
         Destroy(gameObject);
-
     }
 }
