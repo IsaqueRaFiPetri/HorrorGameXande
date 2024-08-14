@@ -19,6 +19,8 @@ public class Enemy : MonoBehaviour
     MonsterAI monsterAI;
     public bool canPatrol;
 
+    public Animator anim;
+
     int lastPoint; //Patrulha aleatória, impede repetir o ponto
     int patrolPoint; //Ponte de patrulha atual, para o de sequencia
 
@@ -53,7 +55,7 @@ public class Enemy : MonoBehaviour
         //Linha de colisão para verificar se ta vendo o player
         if (Physics.Linecast(vision.position, playerPos.position, out hit))
         {
-            if (hit.distance >= 10) //se o player estiver longe, nem executa
+            if (hit.distance >= 35) //se o player estiver longe, nem executa
                 return;
             //print(hit.distance, ToString(playerPos"N0"));
             if (hit.collider.CompareTag("Player")) //caso veja o player
@@ -137,9 +139,11 @@ public class Enemy : MonoBehaviour
                 break;
             case MonsterAI.Patrolling:
                 OnPatrolling.Invoke();
+                anim.SetBool("isPatrolling", true);
                 break;
             case MonsterAI.Chasing:
                 OnChasing.Invoke();
+                anim.SetBool("isChasing", true);
                 break;
         }
     }

@@ -17,8 +17,6 @@ public class GameLogic : MonoBehaviour
     }
     void Update()
     {
-        print(PlayerStats.instance.win);
-
         counter.GetComponent<TMP_Text>().text = migalhasCount + "/10";
 
         if (migalhasCount == 10)
