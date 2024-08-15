@@ -57,13 +57,20 @@ public class Enemy : MonoBehaviour
             //print(hit.distance, ToString(playerPos"N0"));
             if (hit.collider.CompareTag("Player")) //caso veja o player
             {
-                if (monsterAI.Equals(MonsterAI.Chasing)) //se bão for o modo CHASING
+                if (monsterAI.Equals(MonsterAI.Chasing)) //se não for o modo CHASING
                 {
                     SetMonsterAI(MonsterAI.Chasing); //Mude para Chasing
                     StopAllCoroutines(); //Para a Coroutine do modo de espera
                 }
                 agent.SetDestination(playerPos.position);
-                //Fica atualizañdo o destino dele para a posição do player
+                //Fica atualizando o destino dele para a posição do player
+                print(agent.remainingDistance);
+                if (agent.remainingDistance <= agent.stoppingDistance)
+                {
+                    uDied.SetActive(true);
+                    PlayerStats.instance.SetUIingMode();
+                    Time.timeScale = 0;
+                }
             }
             else
             { //se perder o player de vista
@@ -74,11 +81,7 @@ public class Enemy : MonoBehaviour
             print(hit.collider.name);
         }
 
-        if(gameObject == playerPos)
-        {
-            audioJumpscare.SetActive(true);
-            uDied.SetActive(true);
-        }
+        
     }
     IEnumerator GiveaBreak()
     {
