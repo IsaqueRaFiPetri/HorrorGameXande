@@ -20,17 +20,14 @@ public class Enemy : MonoBehaviour
     public bool canPatrol;
 
     public Animator anim;
+    public GameObject audioJumpscare;
+    public GameObject uDied;
 
     int lastPoint; //Patrulha aleatória, impede repetir o ponto
     int patrolPoint; //Ponte de patrulha atual, para o de sequencia
 
     void Start()
     {
-        /*OnBreak.AddListener(delegate
-        {
-            (StartCoroutine(GiveaBreak()));
-        }); //coroutine para esperar*/
-
         agent = GetComponent<NavMeshAgent>();
         //SetDestiny();
         //SetRandomFixedPointDestiny();
@@ -75,6 +72,12 @@ public class Enemy : MonoBehaviour
             }
 
             print(hit.collider.name);
+        }
+
+        if(gameObject == playerPos)
+        {
+            audioJumpscare.SetActive(true);
+            uDied.SetActive(true);
         }
     }
     IEnumerator GiveaBreak()

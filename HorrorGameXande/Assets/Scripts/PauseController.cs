@@ -15,6 +15,4 @@ public class PauseController : MonoBehaviour
         Debug.Log("Sair do jogo");
         Application.Quit();
     }
-
-
 }
