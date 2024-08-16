@@ -6,12 +6,12 @@ using UnityEngine.Events;
 
 public enum MonsterAI
 {
-    Break, Patrolling, Chasing
+    Break, Patrolling, Chasing, Hunting
 }
 [RequireComponent(typeof(NavMeshAgent))]
 public class Enemy : MonoBehaviour
 {
-    public UnityEvent OnPatrolling, OnChasing, OnBreak;
+    public UnityEvent OnPatrolling, OnChasing, OnBreak, OnHunting;
     public Transform vision, playerPos;
     RaycastHit hit;
     public Transform[] patrolPoints; //array - não muda dentro do jogo
@@ -48,6 +48,8 @@ public class Enemy : MonoBehaviour
                 break;
             case MonsterAI.Chasing:
                 break;
+            case MonsterAI.Hunting:
+                break;
         }
         //Linha de colisão para verificar se ta vendo o player
         if (Physics.Linecast(vision.position, playerPos.position, out hit))
@@ -80,7 +82,14 @@ public class Enemy : MonoBehaviour
 
             print(hit.collider.name);
         }
-
+        if (PlayerStats.instance.win)
+        {
+            SetMonsterAI(MonsterAI.Hunting);
+            if (monsterAI.Equals(MonsterAI.Hunting))
+            {
+                agent.SetDestination(playerPos.position);
+            }
+        }
         
     }
     IEnumerator GiveaBreak()
@@ -146,10 +155,17 @@ public class Enemy : MonoBehaviour
             case MonsterAI.Patrolling:
                 OnPatrolling.Invoke();
                 anim.SetBool("isPatrolling", true);
+                anim.SetBool("isChasing", false);
                 break;
             case MonsterAI.Chasing:
                 OnChasing.Invoke();
                 anim.SetBool("isChasing", true);
+                anim.SetBool("isPatrolling", false);
+                break;
+            case MonsterAI.Hunting:
+                OnHunting.Invoke();
+                anim.SetBool("isChasing", true);
+                anim.SetBool("isPatrolling", false);
                 break;
         }
     }
