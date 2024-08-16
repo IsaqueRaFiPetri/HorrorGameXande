@@ -26,13 +26,6 @@ public class InteractableTeve : InteractableObject
     public void Update()
     {
         randomColor = new Color(Random.value, Random.value, Random.value);
-        LuzChanger();
-    }
-    
-    IEnumerator LuzChanger()
-    {
         luz.color = randomColor;
-        yield return new WaitForSeconds(5);
     }
-
 }
